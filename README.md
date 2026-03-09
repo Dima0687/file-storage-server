@@ -16,20 +16,20 @@ Dieses Programm ist ein multi-threaded File Storage Server mit einer TCP-Socket-
 ## Zu der App
 </div>
 
-**PUT:** Dateien auf dem Server hochladen und eindeutige IDs erhalten
-**GET BY_ID/BY_NAME:** Dateien nach ID oder Dateiname herunterladen
-**DELETE BY_ID/BY_NAME:** Dateien löschen mit automatischem Registry-Cleanup
-**HTTP-ähnliche Response Codes:** 
+**PUT:** Dateien auf dem Server hochladen und eindeutige IDs erhalten <br>
+**GET BY_ID/BY_NAME:** Dateien nach ID oder Dateiname herunterladen <br>
+**DELETE BY_ID/BY_NAME:** Dateien löschen mit automatischem Registry-Cleanup <br>
+**HTTP-ähnliche Response Codes:**
   - *200* (OK), 
   - *400* (Bad Request), 
   - *403* (Forbidden), 
   - *404* (Not Found), 
   - *500* (Internal Error)
 
-**Persistente File Registry:** Datei-IDs werden auf der Festplatte gespeichert und beim Neustart wiederhergestellt
-**Thread-Safe:** Volatile Variablen und Synchronized Methods zur Race Condition Prevention
-**Path Traversal Protection:** Sicherheitsvalidation aller Dateipfade
-**SOLID-Architektur:** Strategy Pattern, Default Methods, Centralized Exception Handling
+**Persistente File Registry:** Datei-IDs werden auf der Festplatte gespeichert und beim Neustart wiederhergestellt <br>
+**Thread-Safe:** Volatile Variablen und Synchronized Methods zur Race Condition Prevention <br>
+**Path Traversal Protection:** Sicherheitsvalidation aller Dateipfade <br>
+**SOLID-Architektur:** Strategy Pattern, Default Methods, Centralized Exception Handling <br>
 
 <div align=center>
 
@@ -81,9 +81,9 @@ This is a multi-threaded File Storage Server with a TCP Socket-based client-serv
 ## About the App
 </div>
 
-**PUT:** Upload files to the server and receive unique IDs
-**GET BY_ID/BY_NAME:** Download files by ID or filename
-**DELETE BY_ID/BY_NAME:** Delete files with automatic registry cleanup
+**PUT:** Upload files to the server and receive unique IDs <br>
+**GET BY_ID/BY_NAME:** Download files by ID or filename <br>
+**DELETE BY_ID/BY_NAME:** Delete files with automatic registry cleanup <br>
 **HTTP-like Response Codes:**
   - *200* (OK), 
   - *400* (Bad Request),
@@ -91,9 +91,9 @@ This is a multi-threaded File Storage Server with a TCP Socket-based client-serv
   - *404* (Not Found), 
   - *500* (Internal Error)
 
-**Persistent File Registry:** File IDs are persisted to disk and restored on server restart
-**Thread-Safe:** Volatile variables and synchronized methods for race condition prevention
-**Path Traversal Protection:** Security validation of all file paths
+**Persistent File Registry:** File IDs are persisted to disk and restored on server restart <br>
+**Thread-Safe:** Volatile variables and synchronized methods for race condition prevention <br>
+**Path Traversal Protection:** Security validation of all file paths <br>
 **SOLID Architecture:** Strategy Pattern, Default Methods, Centralized Exception Handling
 
 <div align=center>
